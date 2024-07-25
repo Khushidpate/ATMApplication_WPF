@@ -1,0 +1,13 @@
+﻿<Window x:Class="ATMApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ATM Application" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <Button Content="Create Account" Click="CreateAccount_Click"/>
+            <Button Content="Select Account" Click="SelectAccount_Click"/>
+            <Button Content="Exit" Click="Exit_Click"/>
+            <TextBox Name="OutputTextBox" Height="150" Margin="10" IsReadOnly="True"/>
+        </StackPanel>
+    </Grid>
+</Window>
